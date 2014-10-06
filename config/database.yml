@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  database: yelp2_development
+
+test:
+  adapter: postgresql
+  database: yelp2_test
