@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
+gem 'carrierwave'
 
 group :production do
   gem 'rails_12factor'
