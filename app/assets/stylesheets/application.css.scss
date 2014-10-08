@@ -15,3 +15,12 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.jumbotron {
+  background-color: #fdf8e1;
+  border: 1px solid #f2cb3b;
+  h2 {
+    color: #c41200;
+    font-weight: bold;
+  }
+}
