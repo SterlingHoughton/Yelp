@@ -11,6 +11,8 @@ gem 'turbolinks'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'carrierwave'
+gem 'fog'
+gem "figaro"
 
 group :production do
   gem 'rails_12factor'
