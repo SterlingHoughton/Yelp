@@ -18,7 +18,7 @@ class ReviewsController < ApplicationController
     @review.user_id = current_user.id
     @review.restaurant_id = @restaurant.id
     if @review.save
-      redirect_to root_path, notice: 'Review was successfully created.'
+      redirect_to @restaurant, notice: 'Review was successfully created.'
     else
       render :new
     end
