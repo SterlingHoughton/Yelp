@@ -1,15 +1,6 @@
 class ReviewsController < ApplicationController
-  before_action :set_review, only: [:show, :edit, :update, :destroy]
+  before_action :set_review, only: [:edit, :update, :destroy]
   before_action :authenticate_user!
-
-  # GET /reviews
-  def index
-    @reviews = Review.all
-  end
-
-  # GET /reviews/1
-  def show
-  end
 
   # GET /reviews/new
   def new
@@ -25,7 +16,7 @@ class ReviewsController < ApplicationController
     @review = Review.new(review_params)
     @review.user_id = current_user.id
     if @review.save
-      redirect_to @review, notice: 'Review was successfully created.'
+      redirect_to root_path, notice: 'Review was successfully created.'
     else
       render :new
     end
