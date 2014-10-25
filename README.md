@@ -1,5 +1,5 @@
 #Yelp replica
-This project is a replica version of yelp, where users can browse and add reviews to venues (scoped to restaurants in this application).
+This project is a replica of yelp, where users can browse and add reviews to venues (scoped to restaurants in this application).
 
 Users are able to:  
 
