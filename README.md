@@ -5,6 +5,7 @@ Users are able to:
 
 *Create/edit/delete personal accounts  
 *Add and review venues  
+*Search for restaurants via search bar (duh).
 
   
 Web Technologies used:  
