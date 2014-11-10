@@ -16,6 +16,7 @@ gem "figaro"
 gem "mini_magick"
 gem 'devise'
 gem 'searchkick'
+gem 'newrelic_rpm'
 
 group :production do
   gem 'rails_12factor'
